@@ -1,0 +1,14 @@
+{
+    "author": "ajaytejareddy",
+    "compatibility": [2],
+    "description": "A simple plugin to transcode video streams to HEVC using VAAPI, copying all other streams.",
+    "id": "simple_hevc_transcoder",
+    "name": "Simple HEVC (VAAPI) Transcoder",
+    "platform": ["all"],
+    "priorities": {
+        "on_library_management_file_test": 98,
+        "on_worker_process": 1
+    },
+    "tags": "video,ffmpeg,hevc,vaapi",
+    "version": "0.0.1"
+}
